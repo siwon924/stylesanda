@@ -45,3 +45,52 @@
     color: white;
     padding: 30px 0; /*상하 30, 좌우0 */
 }
+
+
+
+
+/* Medial Query : 미디어 쿼리 */
+@media screen and (max-width: 412px) {
+    body {
+    img,
+    picture,
+    video {
+      max-width: 100%;
+    }
+    .navi {
+        display: grid;
+        grid-template-rows: 50px 50px;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        gap: 1px;
+        text-transform: uppercase;
+    }
+    .navi a {
+        background: gray;
+        color: white
+    }
+    }
+    .navi a:hover { /*마우스 오버시 변경되는 색깔*/
+        background: black;
+        color: white;
+    }
+    .brand {
+        width: 100%;
+    }
+    .new {
+        width: 100%;
+        text-align: center;
+    }
+    .title {
+        color: black;
+        text-transform: capitalize;
+    }
+    .brand_text {
+        width: 300px;
+        color: black;
+    }
+    #footer {
+        color: black;
+    }
+    }   
+  
