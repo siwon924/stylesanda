@@ -5,7 +5,7 @@
 .wrap {
     width: 1000px;
     margin: 0 auto;
-    background-color: gray;
+    background-color: gra;
 }
 
 .bi {
@@ -74,7 +74,7 @@
         text-transform: uppercase;
     }
     .navi a {
-        background: gray;
+        background: white;
         color: white
     }
     }
@@ -102,62 +102,3 @@
     }
     }   
   
-
-.brand_text {
-    font-size: 15px;
-    text-align: center;
-}
-
-.delivery {
-    font-size: 10;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.contact {
-    font-size: 20;
-    text-align: center;
-    color: #d075c3;
-    line-height: 1px;
-}
-.box {
-    width: 300px;
-    height: 20px;
-    margin: 30px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-style: solid;
-    letter-spacing: 10px;
-    word-spacing: 20px;
-    background-color: white;
-}
-.copyright {
-    text-align: center;
-    color: white;
-}
-
-.top {
-    width: 998px;
-    border-color: black;
-}
-
-.middle {
-    width: 998px;
-    border-color: black;
-}
-
-.copyright {
-    width: 975px;
-    height: 30px;
-    margin: 10px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-style: solid;
-    background-color: black;
-    border-color: black;
-    font-size: 9px;
-}

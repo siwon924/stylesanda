@@ -2,9 +2,7 @@
 .wrap {
     width: 1000px;
     margin: 0 auto;
-    background-color: gray;
 }
-
 .bi {
     text-align: center;
 }
@@ -31,60 +29,80 @@
 }
 
 .brand_text {
-    font-size: 15px;
+    text-align: center;
+    width: 400px;
+    margin: 30px auto; /* border 바깥쪽 여백 */
+    padding: 15px; /* border 안쪽 여백 */
+    border: 2px solid #333; /* 테두리 */
+    font-size: 20px;
+    text-transform: uppercase; /* 텍스트-변형 */
+}
+
+#footer {
     text-align: center;
 }
+    /* .delivery {
+        font-size: 10;
+        text-align: center;
+        text-decoration: underline;
+    }
 
-.delivery {
-    font-size: 10;
-    text-align: center;
-    text-decoration: underline;
-}
+    .contact {
+        font-size: 20;
+        text-align: center;
+        color: #d075c3;
+        line-height: 1px;
+    } */
 
-.contact {
-    font-size: 20;
-    text-align: center;
-    color: #d075c3;
-    line-height: 1px;
-}
-.box {
-    width: 300px;
-    height: 20px;
-    margin: 30px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-style: solid;
-    letter-spacing: 10px;
-    word-spacing: 20px;
-    background-color: white;
-}
-.copyright {
-    text-align: center;
-    color: white;
-}
+    .copyright {
+        background-color: black;
+        color: white;
+        padding: 30px 0; /* 상하30, 좌우0 */
 
-.top {
-    width: 998px;
-    border-color: black;
-}
+    }
 
-.middle {
-    width: 998px;
-    border-color: black;
-}
+/* Media Query : 미디어 쿼리, 장치 파악용 at-rule */
+@media screen and (max-width: 412px) { /* screen, min-width : 조건(query) */
+    img,
+    picture,
+    video {
+        max-width: 100%;
+    }
+    .wrap {
+        width: 100%;
+    }
+    .navi {
+        display: grid;
+        grid-template-rows: 50px 50px;
+        grid-template-columns: 1fr 1fr;
+        gap: 2px;
+        width: 100%;
+        text-transform: uppercase;
 
-.copyright {
-    width: 975px;
-    height: 30px;
-    margin: 10px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-style: solid;
-    background-color: black;
-    border-color: black;
-    font-size: 9px;
+    }
+    .navi a {
+        background: black;
+        color: white;
+    }
+    .navi a:hover { /* 마우스 오버시 변경되는 색상 */
+        background: #bfff00;
+        color: white;
+    }
+    .brand {
+        width: 100%;
+    }
+    .new {
+        width: 100%;
+        text-align: center;
+    }
+    .title {
+        color: black;
+        text-transform: capitalize;
+    }
+    .brand_text {
+        width: 266.2px;
+    }
+    #footer {
+        color: black
+    }
 }
